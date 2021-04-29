@@ -13,6 +13,7 @@ https://cash.rbc.ru/cash/json/converter_currency_rate/?currency_from=USD&currenc
 ```<?php
 
 use AlenaFalkova\Rates\ExchangeRate;
+use AlenaFalkova\Rates\Exception\ServerNotAvailable;
 
 try {
     $handler = new ExchangeRate();
