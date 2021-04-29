@@ -1,0 +1,14 @@
+{
+    "name": "AlenaFalkova/Rates",
+    "description": "Получение среднего значения курса валют по двум сервисам",
+    "type": "library",
+    "require": {
+        "php": ">=7.1.3",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "autoload" : {
+        "psr-4": {
+            "AlenaFalkova\\Rates\\": "src"
+        }
+    }
+}
