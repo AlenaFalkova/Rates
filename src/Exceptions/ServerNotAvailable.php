@@ -3,7 +3,7 @@
 namespace AlenaFalkova\Rates\Exceptions;
 
 
-interface ServerNotAvailable
+interface ServerNotAvailable extend \Exception
 {
 
 }
