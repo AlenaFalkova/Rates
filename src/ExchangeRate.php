@@ -30,7 +30,7 @@ class ExchangeRate
      * @return array
      * @throws \Exception
      */
-    public function averageExchangeRate(\DateTimeInterface $date = null, $currencies = ['USD','EUR']): array
+    public function averageExchangeRate(\DateTimeInterface $date, $currencies = ['USD','EUR']): array
     {
         $avgRates = [];
 
