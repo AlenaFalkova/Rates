@@ -18,7 +18,7 @@ use AlenaFalkova\Rates\Exception\ServerNotAvailable;
 try {
     $handler = new ExchangeRate();
     $result = $handler->averageExchangeRate(
-        new \DateTime('NOW'), //дата
+        new \DateTime(), //дата
         ['USD', 'EUR'] //массив с перечеслением необходимых валют, можно не передавать по-умолчанию будет ['USD', 'EUR']
     );
 } catch(ServerNotAvailable $e) {
